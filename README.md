@@ -1,7 +1,7 @@
 # allops-kubernetes
 
 ### Setup self-managed kubernetes cluster:
-- Create EC2 Ubuntu 24.04, one control-plane EC2 instance, two worker EC2 instances, kubeadm, containerd, and Calico.
+- Create a new VPC, SG - Create EC2 Ubuntu 24.04, one control-plane EC2 instance, two worker EC2 instances, kubeadm, containerd, and Calico.
 Before running commands, create three EC2 instances in the same VPC/subnet:
 - k8s-cp-1: t3.large or larger
 - k8s-worker-1, k8s-worker-2: t3.medium or larger
