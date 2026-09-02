@@ -68,7 +68,8 @@ On the control-plane instance, find its private EC2 IP:
 ```
 hostname -I
 ```
-Then initialize Kubernetes, replacing the IP:
+kubeadm init initializes the cluster control plane, creating [api-server, scheduler, controllers, etcd].
+Initialize Kubernetes, replacing the IP:
 ```
 CONTROL_PLANE_IP="<ip>"
 
