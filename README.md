@@ -107,6 +107,15 @@ kubectl get nodes -o wide
 kubectl get pods -A
 ```
 
+## How to install Docker 
+```python 
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+sudo usermod -aG docker "$USER"
+newgrp docker
+```
+
 
 
 
